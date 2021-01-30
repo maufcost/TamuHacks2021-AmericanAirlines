@@ -1,0 +1,223 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+}
+
+.logo {
+	width: 60px;
+}
+
+header div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header div button {
+	background-color: transparent;
+	border: none;
+	font-size: 1.1em;
+	color: var(--dark-purple);
+	font-weight: 600;
+}
+
+.ticket-icon {
+	width: 60px;
+	margin: 0 10px;
+}
+
+.user-img {
+	border-radius: 50%;
+	width: 50px;
+}
+
+.welcome {
+	padding: 0 15px;
+	color: var(--echo-ar-dark);
+	margin: 15px 0 30px 0;
+}
+
+.title {
+	font-size: 1.9em;
+	font-weight: 800;
+}
+
+.subtitle {
+	font-size: 1em;
+	font-weight: 800;
+}
+
+.title span {
+	font-weight: 300;
+}
+
+.section-title {
+	font-weight: 800;
+	font-size: 1.3em;
+	color: var(--echo-ar-dark);
+}
+
+.flight-info,
+.destination-specific-experiences,
+.aa-sticker,
+.reviews,
+.general-experiences {
+	padding: 20px 15px;
+	padding: 20px 15px;
+}
+
+.flight-info {
+	background-color: #ffffff;
+	margin: 15px 10px;
+	border-radius: 5px;
+	box-shadow: var(--box-shadow);
+}
+
+.flight-info main {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flight-info footer {
+	margin-top: 8px;
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+}
+
+.flight-info select {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid var(--subtext);
+	background: transparent;
+}
+
+.flight-info .section-title {
+	text-align: center;
+}
+
+.flight-info h3 {
+	font-size: 1.5em;
+}
+
+.flight-info .plane-progress {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flight-info .progress {
+	width: 100px;
+}
+
+.flight-info span {
+	color: var(--subtext);
+}
+
+.destination-specific-experiences .section-title,
+.aa-sticker .section-title {
+	margin-bottom: 10px;
+}
+
+.destination-specific-experiences .btn,
+.aa-sticker .btn {
+	display: flex;
+}
+
+.destination-specific-experiences .btn .icon-space,
+.aa-sticker .btn .icon-space {
+	background-color: var(--purple-on);
+	padding: 30px;
+	border-radius: 5px;
+}
+
+.destination-specific-experiences .btn .icon-space img,
+.aa-sticker .btn .icon-space img {
+	width: 40px;
+}
+
+.destination-specific-experiences .btn .text-space,
+.aa-sticker .btn .text-space {
+	background-color: var(--purple-off);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.destination-specific-experiences .btn .text-space p,
+.aa-sticker .btn .text-space p {
+	color: var(--dark);
+	font-weight: 800;
+	font-size: 1.1em;
+}
+
+.destination-specific-experiences .btn .text-space span,
+.aa-sticker .btn .text-space span {
+	color: var(--subtext2);
+}
+
+#icon-space-ny {
+	background-color: var(--orange-on);
+}
+
+#text-space-ny {
+	background-color: var(--orange-off);
+}
+
+#icon-space-shanghai {
+	background-color: var(--pink-on);
+}
+
+#text-space-shanghai {
+	background-color: var(--pink-off);
+}
+
+.aa-sticker #icon-space {
+	background-color: var(--light-blue-on);
+}
+
+.aa-sticker #text-space {
+	background-color: var(--light-blue-off);
+}
+
+.general-experiences .buttons {
+	margin-top: 15px;
+}
+
+.general-experiences a {
+	display: flex;
+	box-shadow: var(--box-shadow);
+	border-radius: 5px;
+	width: 100%;
+	margin-top: 18px;
+}
+
+.general-experiences .icon-space {
+	background-color: var(--echo-ar-dark);
+	border-radius: 5px;
+	padding: 30px;
+}
+
+.general-experiences img {
+	width: 30px;
+}
+
+.general-experiences .text-space {
+	background-color: var(--bg);
+	border-radius: 5px;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.general-experiences .text-space p {
+	color: var(--echo-ar-dark);
+	font-weight: 600;
+}

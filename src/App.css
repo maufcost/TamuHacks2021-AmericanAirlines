@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+:root {
+	/* General */
+	--bg: #f9f9f9;
+	--dark-purple: #241950;
+	--shadow-color: #e7e7e8;
+	--box-shadow: 10px 10px 10px #e7e7e8;
+	--echo-ar-dark: #1f3961;
+	--echo-ar-light: #2d5791;
+
+	/* Buttons */
+	--purple-on: #9950f5;
+	--purple-off: #ece5fd;
+	--light-blue-on: #80e3e3;
+	--light-blue-off: #ffffff;
+	--pink-on: #f02055;
+	--pink-off: #fec9d4;
+	--orange-on: #cf8819;
+	--orange-off: #f4d8ac;
+
+	/* Cards */
+	--dark: #2d2c2c;
+	--subtext: #c0cfd4;
+	--subtext2: #2d2c2c;
+}
+
+html, body {
+	box-sizing: border-box;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	background-color: var(--bg);
+}
+
+a, p, h1, h2, h3, h4, h5, h6, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.btn {
+	box-shadow: var(--box-shadow);
+}
