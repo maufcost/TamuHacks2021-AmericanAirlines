@@ -13,6 +13,7 @@ import BoeingIcon1 from "../../assets/boeingicon1.png"
 import BoeingIcon2 from "../../assets/boeingicon2.png"
 import R2D2 from "../../assets/r2d2.png"
 import Target from "../../assets/target.png"
+import StarIcon from "../../assets/staricon.png"
 
 const db = {
 	"Paris": {
@@ -188,10 +189,6 @@ class Dashboard extends React.Component{
 					</a>
 				</section>
 
-				{/*<section className="reviews">
-					<p>See the best spots and their reviews at your destination</p>
-				</section>*/}
-
 				{/* General AR buttons */}
 				<section className="general-experiences">
 					<p className="section-title">Dive into American Airlines' augmented experiences</p>
@@ -237,6 +234,19 @@ class Dashboard extends React.Component{
 							</div>
 						</a>
 					</section>
+				</section>
+
+				<section className="reviews">
+					<p className="section-title">See the best spots and their reviews in {this.state.selectedDestination}</p>
+					<a href="http://google.com" className="btn">
+						<div className="icon-space" id="icon-space">
+							<img src={StarIcon} alt="Boeing"/>
+						</div>
+
+						<div className="text-space" id="text-space">
+							<p>Touch to see reviews and spots in {this.state.selectedDestination} in AR</p>
+						</div>
+					</a>
 				</section>
 			</div>
 		)
